@@ -1,0 +1,37 @@
+"""import math
+x = pow(4, 3)
+y=pow(x,1)
+print(x)
+print(y)"""
+import math
+
+"""x = math.ceil(1.9)
+y = math.floor(1.4)
+
+print(x) # returns 2
+print(y) # returns 1
+
+
+x = math.pi
+
+print(x)
+
+
+import json
+
+# some JSON:
+x =  '{ "name":"John", "age":30, "city":"New York"}'
+
+# parse x:
+y = json.loads(x)
+
+# the result is a Python dictionary:
+print(y["age"])
+
+"""
+
+price=int(input("enter price"))
+
+txt = f"The price is {price:.2f} dollars"
+
+print(txt)

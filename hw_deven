@@ -1,0 +1,36 @@
+class A:
+    def __init__(self, fname, lname):
+        self.firstname = fname
+        self.lastname = lname
+
+    def printname(self):
+        print(self.firstname, self.lastname)
+
+class B(A):
+    def __init__(self, fname, lname, address):
+        A.__init__(self, fname, lname)  
+        self.address = address
+
+    def printaddress(self):
+        print(self.address)
+
+class C(B):
+    def __init__(self, fname, lname, address):
+        B.__init__(self, fname, lname, address)  
+
+class D(C):
+    def__init__(self,fname,lname,address,age):
+      C.__init__(self,fname,lname,address)
+    self.age=age
+
+    def printage(self):
+        print(self.age)
+class E(D):
+  def __init__(self, fname, lname, address,age):
+        D.__init__(self, fname, lname, address,age)    
+
+
+x = D("Prami", "Olsen", "Kathmandu",1)
+
+x.printname()        
+x.printaddress()
