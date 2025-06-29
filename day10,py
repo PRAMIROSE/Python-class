@@ -36,3 +36,8 @@ txt = f"The price is {price:.2f} dollars"
 
 print(txt)
 print(txt)
+"""git branch
+git pull origin main
+ git checkout main
+  git checkout -b Rose
+  git push -u origin new-branch-name"""
