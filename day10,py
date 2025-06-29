@@ -35,4 +35,3 @@ price=int(input("enter price"))
 txt = f"The price is {price:.2f} dollars"
 
 print(txt)
-print(txt)
