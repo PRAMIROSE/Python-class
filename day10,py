@@ -36,3 +36,5 @@ txt = f"The price is {price:.2f} dollars"
 
 print(txt)
 print(txt)
+print(txt)
+print(txt)
